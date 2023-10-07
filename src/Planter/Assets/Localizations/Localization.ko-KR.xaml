@@ -17,4 +17,7 @@
     <!--Landing Page-->
     <system:String x:Key="LANDING_PAGE_CAPTION">자동화 된 이미지 이식 소프트웨어</system:String>
     <system:String x:Key="LANDING_PAGE_COPYRIGHT">ⓒ 2023 ROOT SQUARE 모든 권리 보유.</system:String>
+    <system:String x:Key="LANDING_PAGE_GITHUB">GitHub 저장소</system:String>
+    <system:String x:Key="LANDING_PAGE_RELEASES">릴리즈 목록</system:String>
+    <system:String x:Key="LANDING_PAGE_USER_GUIDE">사용자 매뉴얼</system:String>
 </ResourceDictionary>

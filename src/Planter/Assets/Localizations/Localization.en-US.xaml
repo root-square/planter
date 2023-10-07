@@ -17,4 +17,7 @@
     <!--Landing Page-->
     <system:String x:Key="LANDING_PAGE_CAPTION">An automated image transplanter</system:String>
     <system:String x:Key="LANDING_PAGE_COPYRIGHT">Copyright (c) 2023 ROOT SQUARE all rights reserved.</system:String>
+    <system:String x:Key="LANDING_PAGE_GITHUB">GitHub Repository</system:String>
+    <system:String x:Key="LANDING_PAGE_RELEASES">Releases</system:String>
+    <system:String x:Key="LANDING_PAGE_USER_GUIDE">User Guide</system:String>
 </ResourceDictionary>

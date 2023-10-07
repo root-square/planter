@@ -17,7 +17,7 @@
 
         <Grid Grid.Row="0" Background="{DynamicResource PlanterSecondaryBackground}">
             <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                <StackPanel Orientation="Horizontal" Margin="-8 0 0 0" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" Margin="-8 8 0 0" HorizontalAlignment="Center">
                     <Image VerticalAlignment="Center" Width="64" Height="64"
                    RenderOptions.BitmapScalingMode="HighQuality" Source="{DynamicResource Favicon}"/>
                     <TextBlock VerticalAlignment="Center"
@@ -28,6 +28,21 @@
 
                 <TextBlock Style="{StaticResource MaterialDesignCaptionTextBlock}" HorizontalAlignment="Center" Opacity=".60" Text="{DynamicResource LANDING_PAGE_CAPTION}" />
                 <TextBlock Style="{StaticResource MaterialDesignCaptionTextBlock}" Padding="0" HorizontalAlignment="Center" Opacity=".50" Text="{DynamicResource LANDING_PAGE_COPYRIGHT}" />
+
+                <StackPanel Orientation="Horizontal" Margin="0 8 0 0" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Margin="2 0 2 0" Width="48" Height="48"
+                            ToolTip="{DynamicResource LANDING_PAGE_GITHUB}" Command="{Binding NavigateToGitHubCommand}">
+                        <materialDesign:PackIcon Width="18" Height="18" Opacity=".70" Kind="Github" />
+                    </Button>
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Margin="2 0 2 0" Width="48" Height="48"
+                            ToolTip="{DynamicResource LANDING_PAGE_RELEASES}" Command="{Binding NavigateToGitHubReleasesCommand}">
+                        <materialDesign:PackIcon Width="18" Height="18" Opacity=".70" Kind="CloudArrowDownOutline" />
+                    </Button>
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Margin="2 0 2 0" Width="48" Height="48"
+                            ToolTip="{DynamicResource LANDING_PAGE_USER_GUIDE}" Command="{Binding NavigateToUserManualCommand}">
+                        <materialDesign:PackIcon Width="18" Height="18" Opacity=".70" Kind="BookOutline" />
+                    </Button>
+                </StackPanel>
             </StackPanel>
         </Grid>
 
@@ -36,14 +51,15 @@
                 <Button Style="{StaticResource MaterialDesignOutlinedButton}" Foreground="{DynamicResource PlanterForegroundUltraLight}"
                         BorderThickness="0" Height="36" materialDesign:ButtonAssist.CornerRadius="16"
                         Visibility="Collapsed">
-                    <StackPanel Orientation="Horizontal" Margin="4 0 4 0">
+                    <StackPanel Orientation="Horizontal" Margin="0 0 4 0">
                         <materialDesign:PackIcon Margin="0 0 2 0" VerticalAlignment="Center" Kind="ChevronLeft"/>
                         <TextBlock Style="{StaticResource MaterialDesignBody2TextBlock}" VerticalAlignment="Center" FontWeight="Bold" Text="{DynamicResource COMMON_PREV}" />
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource MaterialDesignOutlinedButton}" BorderThickness="0" Height="36" materialDesign:ButtonAssist.CornerRadius="16">
-                    <StackPanel Orientation="Horizontal" Margin="4 0 4 0">
+                <Button Style="{StaticResource MaterialDesignOutlinedButton}" BorderThickness="0" Height="36" materialDesign:ButtonAssist.CornerRadius="16"
+                        Command="{Binding NavigateToNextInteractionCommand}">
+                    <StackPanel Orientation="Horizontal" Margin="4 0 0 0">
                         <TextBlock Style="{StaticResource MaterialDesignBody2TextBlock}" VerticalAlignment="Center" FontWeight="Bold" Text="{DynamicResource COMMON_NEXT}" />
                         <materialDesign:PackIcon Margin="2 0 0 0" VerticalAlignment="Center" Kind="ChevronRight"/>
                     </StackPanel>
