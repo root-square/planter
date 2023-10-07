@@ -73,6 +73,12 @@ namespace Planter
             var services = new ServiceCollection();
             services.AddSingleton(typeof(ShellViewModel));
             services.AddSingleton(typeof(LandingViewModel));
+            services.AddSingleton(typeof(FileSelectorViewModel));
+            services.AddSingleton(typeof(FileMatcherViewModel));
+            services.AddSingleton(typeof(OptionsViewModel));
+            services.AddTransient(typeof(PreviewViewModel));
+            services.AddTransient(typeof(ProgressViewModel));
+            services.AddTransient(typeof(ResultViewModel));
 
             Services = services.BuildServiceProvider();
         }

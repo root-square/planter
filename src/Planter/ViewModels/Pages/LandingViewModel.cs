@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
 using Planter.Helpers;
+using Planter.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +49,7 @@ namespace Planter.ViewModels.Pages
 
         private void OnNavigateToNextInteraction()
         {
-            
+            WeakReferenceMessenger.Default.Send(new NavigationMessage("./Views/Pages/FileSelectorPage.xaml"));
         }
     }
 }
