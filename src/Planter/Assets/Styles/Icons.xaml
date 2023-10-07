@@ -1,0 +1,56 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="Favicon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V1000 H1000 V0 H0 Z">
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M258.36,575.89L258.36,575.89 244.96,595.03 467.7,817.77 512.48,753.82z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M439.22,210.85L439.22,210.85 451.28,219.29 499.17,150.89z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M220.26,549.21L220.26,549.21 150.03,500.03 150,500.06 211.57,561.63z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M246.94,511.12L246.94,511.12 424.6,257.39 405.82,244.24 183.42,466.64z" />
+                <DrawingGroup Transform="0.5736,-0.8192,0.8192,0.5736,-195.8836,623.5023">
+                    <GeometryDrawing Brush="#FF1D1D1D">
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="346.06,344.79,309.74,310.22" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M550.58,780.5L550.58,780.5 502.53,849.11 562.67,788.97z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M743.49,423.9L743.49,423.9 756.64,405.12 533.9,182.38 489.38,245.97z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M781.59,450.58L781.59,450.58 850,498.48 790.04,438.52z" />
+                <GeometryDrawing Brush="#FF1D1D1D" Geometry="F1 M1000,1000z M0,0z M754.91,488.68L754.91,488.68 577.25,742.4 596.07,755.58 818.47,533.18z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="WindowCloseIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Brush="{DynamicResource PlanterForegroundLight}" Geometry="F1 M24,24z M0,0z M13.46,12L19,17.54 19,19 17.54,19 12,13.46 6.46,19 5,19 5,17.54 10.54,12 5,6.46 5,5 6.46,5 12,10.54 17.54,5 19,5 19,6.46 13.46,12z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="WindowMaximizeIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Brush="{DynamicResource PlanterForegroundLight}" Geometry="F1 M24,24z M0,0z M4,4L20,4 20,20 4,20 4,4 M6,8L6,18 18,18 18,8 6,8z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="WindowRestoreIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Brush="{DynamicResource PlanterForegroundLight}" Geometry="F1 M24,24z M0,0z M4,8L8,8 8,4 20,4 20,16 16,16 16,20 4,20 4,8 M16,8L16,14 18,14 18,6 10,6 10,8 16,8 M6,12L6,18 14,18 14,12 6,12z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <DrawingImage x:Key="WindowMinimizeIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+                <GeometryDrawing Brush="{DynamicResource PlanterForegroundLight}" Geometry="F1 M24,24z M0,0z M20,14L4,14 4,10 20,10" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

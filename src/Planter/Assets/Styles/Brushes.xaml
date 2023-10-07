@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="PlanterBackgroundColor">#FFffffff</Color>
+    <SolidColorBrush x:Key="PlanterBackground" Color="{DynamicResource PlanterBackgroundColor}" />
+    <Color x:Key="PlanterSecondaryBackgroundColor">#FFfafafa</Color>
+    <SolidColorBrush x:Key="PlanterSecondaryBackground" Color="{DynamicResource PlanterSecondaryBackgroundColor}" />
+    <Color x:Key="PlanterPopupBoxBackgroundColor">#FFF5F5F5</Color>
+    <SolidColorBrush x:Key="PlanterPopupBoxBackground" Color="{DynamicResource PlanterPopupBoxBackgroundColor}" />
+    <Color x:Key="PlanterProgressBarBackgroundColor">#1F000000</Color>
+    <SolidColorBrush x:Key="PlanterProgressBarBackground" Color="{DynamicResource PlanterProgressBarBackgroundColor}" />
+    <Color x:Key="PlanterCommandBarBackgroundColor">#ffeeeeee</Color>
+    <SolidColorBrush x:Key="PlanterCommandBarBackground" Color="{DynamicResource PlanterDialogCommandBarBackgroundColor}" />
+
+    <Color x:Key="PlanterButtonHoverColor">#FFDeDeDe</Color>
+    <SolidColorBrush x:Key="PlanterButtonHover" Color="{DynamicResource PlanterButtonHoverColor}" />
+    <Color x:Key="PlanterButtonRippleColor">#FFB6B6B6</Color>
+    <SolidColorBrush x:Key="PlanterButtonRipple" Color="{DynamicResource PlanterButtonRippleColor}" />
+
+    <Color x:Key="PlanterForegroundUltraLightColor">#FF717171</Color>
+    <SolidColorBrush x:Key="PlanterForegroundUltraLight" Color="{DynamicResource PlanterForegroundUltraLightColor}" />
+    <Color x:Key="PlanterForegroundLightColor">#BB000000</Color>
+    <SolidColorBrush x:Key="PlanterForegroundLight" Color="{DynamicResource PlanterForegroundLightColor}" />
+    <Color x:Key="PlanterForegroundColor">#CC000000</Color>
+    <SolidColorBrush x:Key="PlanterForeground" Color="{DynamicResource PlanterForegroundColor}" />
+
+    <Color x:Key="PlanterContrastForegroundColor">#DDFFFFFF</Color>
+    <SolidColorBrush x:Key="PlanterContrastForeground" Color="{DynamicResource PlanterContrastForegroundColor}" />
+
+    <Color x:Key="PlanterDividerColor">#1F000000</Color>
+    <SolidColorBrush x:Key="PlanterDivider" Color="{DynamicResource PlanterDividerColor}" />
+    <Color x:Key="PlanterDividerLightColor">#0F000000</Color>
+    <SolidColorBrush x:Key="PlanterDividerLight" Color="{DynamicResource PlanterDividerLightColor}" />
+</ResourceDictionary>
