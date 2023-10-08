@@ -20,4 +20,14 @@
     <system:String x:Key="LANDING_PAGE_GITHUB">GitHub 저장소</system:String>
     <system:String x:Key="LANDING_PAGE_RELEASES">릴리즈 목록</system:String>
     <system:String x:Key="LANDING_PAGE_USER_GUIDE">사용자 매뉴얼</system:String>
+
+    <!--Target Selector Page-->
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TITLE">대상 선택</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_DESC">처리하려는 이미지 파일(A/B)을 선택하고 각 대상의 역할을 지정하십시오.</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGETS">대상 지정</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGET_A">대상 A</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGET_B">대상 B</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE">역할 지정</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE_BASE">기준</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE_OVERLAY">덮어쓰기</system:String>
 </ResourceDictionary>

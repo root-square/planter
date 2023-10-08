@@ -13,11 +13,21 @@
     <system:String x:Key="COMMON_YES">Yes</system:String>
     <system:String x:Key="COMMON_CLOSE">Close</system:String>
     <system:String x:Key="COMMON_COMPLETE">Complete</system:String>
-    
+
     <!--Landing Page-->
     <system:String x:Key="LANDING_PAGE_CAPTION">An automated image transplanter</system:String>
     <system:String x:Key="LANDING_PAGE_COPYRIGHT">Copyright (c) 2023 ROOT SQUARE all rights reserved.</system:String>
     <system:String x:Key="LANDING_PAGE_GITHUB">GitHub Repository</system:String>
     <system:String x:Key="LANDING_PAGE_RELEASES">Releases</system:String>
     <system:String x:Key="LANDING_PAGE_USER_GUIDE">User Guide</system:String>
+    
+    <!--Target Selector Page-->
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TITLE">Select targets</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_DESC">Select your files to process (A and B) and specify the role of each target.</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGETS">Targets</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGET_A">Target A</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_TARGET_B">Target B</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE">Role</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE_BASE">Base</system:String>
+    <system:String x:Key="TARGET_SELECTOR_PAGE_ROLE_OVERLAY">Overlay</system:String>
 </ResourceDictionary>

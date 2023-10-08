@@ -27,16 +27,5 @@ namespace Planter.Views
             InitializeComponent();
             DataContext = App.Current.Services?.GetService(typeof(ShellViewModel));
         }
-
-        private void OnNavigating(object sender, NavigatingCancelEventArgs e)
-        {
-            var anim = new DoubleAnimation();
-            anim.Duration = TimeSpan.FromSeconds(0.5);
-            anim.DecelerationRatio = 0.2;
-            anim.To = 1;
-            anim.From = 0;
-
-            (sender as Frame)?.BeginAnimation(OpacityProperty, anim);
-        }
     }
 }

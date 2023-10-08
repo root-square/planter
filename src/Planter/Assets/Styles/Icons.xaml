@@ -22,6 +22,28 @@
         </DrawingImage.Drawing>
     </DrawingImage>
 
+    <DrawingImage x:Key="WhiteFavicon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V1000 H1000 V0 H0 Z">
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M258.36,575.89L258.36,575.89 244.96,595.03 467.7,817.77 512.48,753.82z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M439.22,210.85L439.22,210.85 451.28,219.29 499.17,150.89z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M220.26,549.21L220.26,549.21 150.03,500.03 150,500.06 211.57,561.63z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M246.94,511.12L246.94,511.12 424.6,257.39 405.82,244.24 183.42,466.64z" />
+                <DrawingGroup Transform="0.5736,-0.8192,0.8192,0.5736,-195.8836,623.5023">
+                    <GeometryDrawing Brush="White">
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="346.06,344.79,309.74,310.22" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M550.58,780.5L550.58,780.5 502.53,849.11 562.67,788.97z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M743.49,423.9L743.49,423.9 756.64,405.12 533.9,182.38 489.38,245.97z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M781.59,450.58L781.59,450.58 850,498.48 790.04,438.52z" />
+                <GeometryDrawing Brush="White" Geometry="F1 M1000,1000z M0,0z M754.91,488.68L754.91,488.68 577.25,742.4 596.07,755.58 818.47,533.18z" />
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
     <DrawingImage x:Key="WindowCloseIcon">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">

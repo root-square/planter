@@ -27,12 +27,12 @@
                        Text="Planter"/>
         </StackPanel>
         
-        <Border Grid.Row="1" BorderBrush="{DynamicResource PlanterDividerLight}" BorderThickness="0 1 0 0">
-            <Frame NavigationUIVisibility="Hidden" Navigating="OnNavigating">
+        <Grid Grid.Row="1">
+            <Frame NavigationUIVisibility="Hidden">
                 <i:Interaction.Behaviors>
                     <behaviors:FrameBehavior NavigationSource="{Binding NavigationSource, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </i:Interaction.Behaviors>
             </Frame>
-        </Border>
+        </Grid>
     </Grid>
 </Window>

@@ -26,30 +26,30 @@ namespace Planter.ViewModels.Pages
             Title = "Landing Page";
             Description = "A Planter landing page";
 
-            NavigateToGitHubCommand = new RelayCommand(OnNavigateToGitHub);
-            NavigateToGitHubReleasesCommand = new RelayCommand(OnNavigateToGitHubReleases);
-            NavigateToUserManualCommand = new RelayCommand(OnNavigateToUserManual);
-            NavigateToNextInteractionCommand = new RelayCommand(OnNavigateToNextInteraction);
+            NavigateToGitHubCommand = new RelayCommand(OnNavigatingToGitHub);
+            NavigateToGitHubReleasesCommand = new RelayCommand(OnNavigatingToGitHubReleases);
+            NavigateToUserManualCommand = new RelayCommand(OnNavigatingToUserManual);
+            NavigateToNextInteractionCommand = new RelayCommand(OnNavigatingToNextInteraction);
         }
 
-        private void OnNavigateToGitHub()
+        private void OnNavigatingToGitHub()
         {
             UriHelper.Open("https://github.com/root-square/planter");
         }
 
-        private void OnNavigateToGitHubReleases()
+        private void OnNavigatingToGitHubReleases()
         {
             UriHelper.Open("https://github.com/root-square/planter/releases");
         }
 
-        private void OnNavigateToUserManual()
+        private void OnNavigatingToUserManual()
         {
             UriHelper.Open("https://github.com/root-square/planter");
         }
 
-        private void OnNavigateToNextInteraction()
+        private void OnNavigatingToNextInteraction()
         {
-            WeakReferenceMessenger.Default.Send(new NavigationMessage("./Views/Pages/FileSelectorPage.xaml"));
+            WeakReferenceMessenger.Default.Send(new NavigationMessage("./Views/Pages/TargetSelectorPage.xaml"));
         }
     }
 }
